@@ -1,0 +1,22 @@
+{
+    "name": "dwelling41/edgeauthexample",
+    "type": "project",
+    "authors": [
+        {
+            "name": "David",
+            "email": "david.welling.41@gmail.com"
+        }
+    ],
+    "require": {
+        "dwelling41/edgeauth": "@dev"
+    },
+    "autoload": {
+        "psr-4": {"EdgeAuthExample\\": "Src/"}
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/dwelling41/edgeauth"
+        }
+    ]
+}
